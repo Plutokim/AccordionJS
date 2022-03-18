@@ -1,0 +1,26 @@
+.accordion{
+    margin: 0 auto;
+    width: 30%;
+}
+.accordion-btn{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    background-color: rgba(239, 239, 239, 0.63);
+    text-align: left;
+    padding: 2%;
+}
+.accordion-btn:hover{
+    cursor: pointer;
+}
+.accordion-content{
+    display: none;
+}
+.active{
+    display: block;
+
+}
+.clicked{
+    background-color: lightblue;
+
+}
